@@ -1,12 +1,12 @@
     </div> <!-- /.container -->
 
-		<footer class="blog-footer">
-      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+		<footer class="footer">
+      <p>Blog template by <a href="http://dragonbyte.nz">DragonByte</a>.</p>
       <p>
         <a href="#">Back to top</a>
       </p>
     </footer>
 
-<?php wp_footer(); ?> 
+<?php wp_footer(); ?>
   </body>
 </html>
