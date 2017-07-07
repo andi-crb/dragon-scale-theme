@@ -9,9 +9,12 @@ add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
 
 // Add Google Fonts
 function startwordpress_google_fonts() {
-				wp_register_style('OpenSans', '//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
-				wp_enqueue_style( 'OpenSans');
+				wp_register_style('googleFonts', '//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|//fonts.googleapis.com/css?family=MedievalSharp');
+				wp_enqueue_style( 'googleFonts');
+
 		}
+
+
 
 add_action('wp_print_styles', 'startwordpress_google_fonts');
 

@@ -13,8 +13,9 @@ pink: F59CA9*/
 
 body {
   background-color: #d7ed76;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Georgia, "Times New Roman"", Times, serif;
   color: #2d2d2a;
+  margin: 0px;
 }
 
 .blog-masthead, .masthead {
@@ -36,7 +37,7 @@ h4 a, a.h4,
 h5 a, a.h5,
 h6 a, a.h6 {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "MedievalSharp", MedievalSharp, cursive;
   font-weight: normal;
   color: #2d2d2a;
 }
@@ -84,7 +85,7 @@ h1 {
  */
 
 .blog-header {
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 20px;
 }
 .blog-title {
@@ -96,6 +97,13 @@ h1 {
 .blog-description {
   font-size: 20px;
   color: #2d2d2a;
+  text-align: center;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 200px;
 }
 
 /*
