@@ -19,6 +19,13 @@
 
 	<div class="blog-masthead">
 		<div class="container">
+			<div class="blog-header">
+				<img src="<?php get_template_directory_uri() . '/scales.png'?>">
+				<h1 class="blog-title"><a href="<?php bloginfo('wpurl');?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+				<p class="lead blog-description">
+					<?php echo get_bloginfo( 'description' ); ?>
+				</p>
+			</div>
 			<nav class="blog-nav">
 				<?wp_nav_menu( array( 'theme_location' => 'main-menu', 'container_class' => 'menu_class' ) ); ?>
 			</nav>
@@ -26,10 +33,3 @@
 	</div>
 
 	<div class="container main-container">
-
-		<div class="blog-header">
-			<h1 class="blog-title"><a href="<?php bloginfo('wpurl');?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
-			<p class="lead blog-description">
-				<?php echo get_bloginfo( 'description' ); ?>
-			</p>
-		</div>
